@@ -28,7 +28,7 @@ function Header() {
       name: "All Posts",
       slug: "/all-posts",
       active: authStatus,
-  },  
+  },
   {
       name: "Add Post",
       slug: "/add-post",
@@ -44,6 +44,7 @@ function Header() {
           <div className='mr-4'>
             <Link to='/'>
               <Logo width='70px'   />
+
               </Link>
           </div>
           <ul className='flex ml-auto'>
