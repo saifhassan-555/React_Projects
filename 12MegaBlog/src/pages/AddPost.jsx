@@ -10,3 +10,5 @@ function AddPost() {
     </div>
   )
 }
+
+export default AddPost
